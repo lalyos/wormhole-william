@@ -1,3 +1,9 @@
+This is just a fork to hold a **static binary** archive,
+which can be installed with a one-liner:
+```
+curl -sL https://github.com/lalyos/wormhole-william/releases/download/v1.0.5/wormhole-Linux-x86_64.tgz|tar -xzC /usr/local/bin
+```
+
 # wormhole-william
 
 wormhole-william is a Go (golang) implementation of [magic wormhole](https://magic-wormhole.readthedocs.io/en/latest/). It provides secure end-to-end encrypted file transfers between computers. The endpoints are connected using the same "wormhole code".

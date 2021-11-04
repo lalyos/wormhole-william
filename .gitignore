@@ -1,3 +1,5 @@
 release/
 wormhole-william
 *.exe
+build
+*.tgz
